@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #dfdeff;
+  color: #234e70;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: #3c74b7;
+}
+
+h2.couple-name {
+  font-family: 'Great Vibes', cursive;
+  font-size: 64px;
+  margin-top: 10px;
+  color: #3c74b7;
+}
+
+.date {
+  font-size: 18px;
+  color: #777;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.btn-invite {
+  display: inline-block;
+  background-color: #00d2ff;
+  color: white;
+  font-size: 1.2em;
+  padding: 12px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  margin-top: 40px;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.btn-invite:hover {
+  background-color: #3a47d5;
+  transform: scale(1.05);
+}
+
+.apology-text {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #555;
+}
+
+footer {
+  padding: 20px;
+  background: #e6f1ff;
+  color: #555;
+  font-size: 14px;
+}
+
+footer p {
+  font-weight: 300;
+}
+
+.corner-flower {
+  position: absolute;
+  width: 180px;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.corner-flower.left {
+  top: -20px;
+  left: -20px;
+}
+
+.corner-flower.right {
+  top: -20px;
+  right: -20px;
+  transform: scaleX(-1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .description {
+    font-size: 1.1em;
+  }
+
+  .btn-invite {
+    font-size: 1.1em;
+    padding: 10px 30px;
+  }
+
+  .apology-text {
+    font-size: 16px;
+  }
+}
